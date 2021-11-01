@@ -1,6 +1,55 @@
 @font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-family: "DINPro";
+  src: url("../fonts/DINPro-Black.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: "DINPro";
+  src: url("../fonts/DINPro-Bold.ttf") format("ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DINPro";
+  src: url("../fonts/DINPro-Medium.ttf") format("ttf");
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeue.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeue-Medium.ttf") format("ttf");
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeue-Light.ttf") format("ttf");
+  font-weight: lighter;
+  font-style: normal;
+}
+
+
+html {
+  font-family: "Helvetica Neue" , sans-serif;
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "DinPro" , sans-serif;
+  font-weight: bold;
 }
