@@ -1,0 +1,41 @@
+.header {
+
+  height: 100vh;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 14px 30px;
+
+    
+    @media (min-width:1200px) {
+      padding: 14px 0;
+    }
+  }
+
+  &__wrap {
+    display: none;
+    
+
+    @include tablet {
+      display: flex;
+      align-items: center;
+      gap: 27px;
+    }
+  }
+
+  &__link {
+    color: #4F4F4F;
+  }
+
+  &__language {
+    
+    color: $secondColor;
+    cursor: pointer;
+
+    &--black {
+      color: $mainColor;
+    }
+  }
+}

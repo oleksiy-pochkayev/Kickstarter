@@ -1,0 +1,13 @@
+.page {
+  &__banner {
+    margin-bottom: 100px;
+
+    @include tablet {
+      margin-bottom: 128px;
+    }
+
+    @include desktop {
+      margin-bottom: 120px;
+    }
+  }
+}

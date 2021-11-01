@@ -1,0 +1,14 @@
+.icon {
+  width: 48px;
+  height: 48px;
+
+  &-header {
+    background-image: url(../images/menu/menu.svg);
+    background-position: center;
+    background-size: contain;
+
+    @include tablet {
+      display: none;
+    }
+  }
+}
